@@ -6,8 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="<?php echo base_url(); ?>JQuery/jquery-3.1.1.js"></script>
     <script src="<?php echo base_url(); ?>JS/fonctions.js"></script>
+    <script type="text/javascript">
+    $
+    (
+        function()
+        {
+            $('#btnInsererConference').click
+            (
+                function()
+                {
+                    creerUneConference();
+                }
+            );
+        }
+    );
+    </script>
 </head>
 <body>
+<form method="POST" action="<?php echo base_url(); ?>index.php/Ctrl_Interface/creerUneConference">
 <table>
     <tr>
         <td><label>Numéro de la conférence</label><input type='text' name='idConf' value='<?php echo $num; ?>' disabled></td>
@@ -25,5 +41,6 @@
     echo "<input type='button' id='btnInsererConference' data-toggle='popover' data-content='Conférence créée' value='Insérer une conférence'></table>";
     ?></tr>
 </table>
+</form>
 </body>
 </html>

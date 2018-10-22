@@ -6,21 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="<?php echo base_url(); ?>JQuery/jquery-3.1.1.js"></script>
     <script src="<?php echo base_url(); ?>JS/fonctions.js"></script>
-    <script type="text/javascript">
-    $
-    (
-        function()
-        {
-            $('#btnInsererConference').click
-            (
-                function()
-                {
-                    creerUneConference();
-                }
-            );
-        }
-    );
-    </script>
 </head>
 <body>
 <center><h1>Devoir techdays</h1><br/>
