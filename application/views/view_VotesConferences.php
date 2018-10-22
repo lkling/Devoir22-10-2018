@@ -13,7 +13,7 @@
     {
         echo ".$uneConference->TITRECONFERENCE.",".$uneConference->NBVOTES." ;
     ?>
-    <div style='margin:auto;' onclick="AfficherConferences()">
+    <div style='margin:auto;' onclick="afficherConferences()">
     <?php echo $uneConference->titreConf; ?>
     </div>
     <?php

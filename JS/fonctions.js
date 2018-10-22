@@ -1,11 +1,11 @@
-function afficherConferences($codeConference)
+function creerUneConference()
 {
     $.ajax
     (
         {
             type:"get",
-            url:"index.php/Ctrl_Interface/afficherConferences",
-            data:"codeConf="+nbvotes,
+            url:"index.php/Ctrl_Interface/creerUneConference",
+            data:"",
             success:function(data)
             {
                 $('#divConferences').empty();
